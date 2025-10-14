@@ -110,6 +110,9 @@ class Electric_Car(Car):
 
 mye_car = Electric_Car("Tesla", "Models", "85kwh")
 
-safaris= Car("Tata","Safari")
+print(isinstance(mye_car,Car))
+print(isinstance(mye_car,Electric_Car))
+
+#safaris= Car("Tata","Safari")
 # safaris.model="City"
-print(safaris.model)
+#print(safaris.model)
